@@ -1,0 +1,8 @@
+
+{% from 'bootstrap5/form.html' import render_form %}
+
+<div class="content">
+  <h1 class="heading">{{movie.title}}</h1>
+    <p class="description">영화 평을 수정하세요</p>
+   {{ render_form(form, novalidate=False) }}
+  </div>

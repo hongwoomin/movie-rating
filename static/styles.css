@@ -1,0 +1,63 @@
+    <style>
+        /* 전체 컨테이너 스타일 */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* 영화 항목 스타일 */
+        .movie-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 자식 요소들을 수평 중앙 정렬 */
+            text-align: center;  /* 텍스트 중앙 정렬 */
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        /* 포스터 이미지 스타일 */
+        .poster {
+            width: 300px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        /* 제목 스타일 */
+        .title {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        /* 평점 스타일 */
+        .rating {
+            margin-bottom: 10px;
+        }
+
+        /* 버튼 스타일 */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+        }
+
+        .delete-button {
+            background-color: #dc3545;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* Add Movie 버튼 스타일 */
+        .add {
+            margin-top: 20px;
+        }
+    </style>
